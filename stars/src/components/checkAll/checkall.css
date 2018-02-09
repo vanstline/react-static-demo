@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.check > div {
+    margin: 10px;
+}
+label {
+    margin: 10px;
+}
+label input,
+label span {
+    vertical-align: middle;
+}

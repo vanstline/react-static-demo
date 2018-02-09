@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.stars {
+    width: 60px;
+    height: 40px;
+    background: url("../../img/star.png") no-repeat center;
+}
+.stars.starsOver {
+    background-image: url("../../img/star2.png");
+}
+.info {
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    font: 16px/40px '宋体';
+}
